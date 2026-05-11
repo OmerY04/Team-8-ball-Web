@@ -1,0 +1,135 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #5D4E60;
+    color: #E2E8DD;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #2C5D7D;
+    padding: 15px 5%;
+    position: relative;
+    z-index: 100;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.site-logo {
+    height: 60px;
+    width: auto;
+    border-radius: 50%;
+    border: 2px solid #D4B2D8;
+}
+
+h1 {
+    margin: 0;
+    font-size: 1.8rem;
+    color: #E2E8DD;
+}
+
+nav {
+    background-color: #A88FAC;
+    padding: 12px 5%;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+    nav a {
+        color: #5D4E60;
+        margin-right: 30px;
+        text-decoration: none;
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 0.9rem;
+    }
+
+        nav a:hover {
+            color: #2C5D7D;
+        }
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 0 20px;
+}
+
+section {
+    background-color: rgba(0, 0, 0, 0.15);
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 12px;
+    border-left: 6px solid #D4B2D8;
+}
+
+h2 {
+    color: #D4B2D8;
+    margin-top: 0;
+}
+
+h3 {
+    color: #D4B2D8;
+}
+
+.img-fluid {
+    background-color: #2C5D7D;
+    padding: 15px;
+    border-radius: 12px;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+.contact-box {
+    margin-top: 15px;
+    padding: 15px;
+    background: #3A7CA5;
+    display: inline-block;
+    border-radius: 5px;
+    color: white;
+}
+
+footer {
+    text-align: center;
+    padding: 40px 20px;
+    background-color: #2C5D7D;
+    color: #E2E8DD;
+    font-size: 0.9rem;
+    position: relative;
+    z-index: 10;
+}
+
+.back-to-top {
+    display: inline-block;
+    background-color: #A88FAC;
+    color: #5D4E60;
+    padding: 10px 18px;
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 700;
+    transition: background-color 180ms ease, transform 120ms ease;
+    border: 2px solid rgba(212,178,216,0.15);
+}
+
+    .back-to-top:hover,
+    .back-to-top:focus {
+        background-color: #D4B2D8;
+        color: #2C5D7D;
+        transform: translateY(-2px);
+        outline: none;
+    }
+
+.timeline .content img {
+    width: 100%;
+    height: auto;
+}
